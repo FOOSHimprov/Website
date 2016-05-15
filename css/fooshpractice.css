@@ -1,0 +1,383 @@
+/*!
+ * Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/*General settings for entire page*/
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* Background for whole site */
+    background: url("../img/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding-bottom: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #000;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+/* Navigation */
+.navbar-nav > li > a, .navbar-brand
+{
+    padding-top:4px !important;
+    padding-bottom:0 !important;
+    height: 36px;
+}
+
+.navbar
+{
+    min-height:36px !important;
+    background-color: #000;
+}
+
+.blue{
+    color: rgb(24,109,150);
+    text-shadow: 2px 2px 2px #000;
+}
+
+.gold{
+    color: yellow;
+    text-shadow: 2px 2px 2px #000;
+}
+
+/* Page heading */
+
+.header {
+    padding-top: 75px;
+}
+
+/* Settings for the title at the top of each page */
+.page-title {
+    display: inherit;
+    text-align: left;
+    text-shadow: .063em .063em .125em rgba(0,0,0,0.5);
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 500%;
+    font-weight: 700;
+    line-height: normal;
+    color: #fff;
+    padding-top: 25px;
+    padding-right: 50px;
+}
+
+/* Settings for the logo at the top of the screen */
+.logo img{
+    width: auto;
+    height: 125px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: none;
+}
+
+/* Settings for the description of the club in header */
+.description {
+    display: inherit;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 125%;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    padding-bottom: 10px;
+}
+
+/* index.html */
+.photo img {
+    width: 100%;
+    height: auto;
+}
+
+/* Settings for informational table at bottom of home page */
+.home-table {
+    width: 100%;
+}
+
+.home-section-title {
+    text-align: center;
+    font-family: inherit;
+    font-size: 200%;
+    color: #fff;
+    text-shadow: 2px 2px 1px #000,
+                -2px -2px 1px #000;
+    vertical-align: middle;
+    background-color: rgba(0,0,0,0.65);
+}
+
+/* Settings for caption under table at bottom of home page */
+.home-table caption {
+    font-family: inherit;
+    background-color: rgba(0,0,0,0.65);
+    color: #fff;
+    text-shadow: 2px 2px 1px #000,
+                -2px -2px 1px #000;
+    text-align: center;
+}
+
+/* Text settings for information inside table at bottom of home-page */
+.home-text {
+    font-family: inherit;
+    color: #fff;
+    text-shadow: 2px 2px 1px #000,
+                -2px -2px 1px #000;
+    text-align: center;
+    background-color: rgba(0,0,0,0.65);
+}
+
+.dates {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* about.html */
+/* Text settings for information inside table at bottom of home-page */
+.about-section-title {
+    text-align: center;
+    font-family: inherit;
+    font-size: 200%;
+    color: #fff;
+    text-shadow: 2px 2px 1px #000,
+                -2px -2px 1px #000;
+    vertical-align: middle;
+    background-color: rgba(0,0,0,0.65);
+}
+
+.about-text {
+    font-family: inherit;
+    color: #fff;
+    text-shadow: 2px 2px 1px #000,
+                -2px -2px 1px #000;
+    text-align: center;
+    background-color: rgba(0,0,0,0.65);
+}
+
+.about-photo img {
+    width: auto;
+    height: 250px;
+    padding-bottom: 10px;
+}
+
+/* shows.html */
+.table-title span {
+    background-color: rgba(0,0,0,0.65);
+    padding: 0 5px 0 5px;
+    color: #fff;
+    text-shadow: 2px 2px 1px #000, -2px -2px 1px #000;
+    font-size: 200%;
+}
+
+.sched {
+    color: #fff;
+    text-shadow: 2px 2px 1px #000,
+                -2px -2px 1px #000;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.65);
+}
+
+.sched caption {
+    font-family: inherit;
+    background-color: rgba(0,0,0,0.65);
+    color: #fff;
+    text-shadow: 2px 2px 1px #000,
+                -2px -2px 1px #000;
+    text-align: center;
+}
+
+.sched th {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 125%;
+}
+
+.quarter {
+    font-size: 150%;
+    color: rgb(24,109,150);
+    text-shadow: 2px 2px 1px #000,
+                -2px -2px 1px #000;
+}
+
+/* pictures.html */
+.photo-albums a {
+    color: #fff;
+    text-shadow: 2px 2px 1px #000,
+                -2px -2px 1px #000;
+}
+
+.photo-albums a:hover {
+    color: rgb(24,109,150);
+}
+
+.photo-albums {
+    color: #fff;
+    text-shadow: 2px 2px 1px #000,
+                -2px -2px 1px #000;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.album-photo {
+    height: 300px;
+    width: 300px;
+}
+
+.album-info {
+    background-color: rgba(0,0,0,0.65);
+    padding-top: 1px;
+    padding-left: 5px;
+    margin-top: 5px;
+    width: 300px;
+    text-align: center;
+}
+
+.gallery-caption {
+    color: #fff;
+    text-shadow: 2px 2px 1px #000,
+                -2px -2px 1px #000;
+}
+
+/* members.html */
+.member figure img {
+    height: 150px;
+    width: auto;
+    padding-bottom: 10px;
+}
+
+.member figcaption {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.member figure {
+    width: 175px;
+}
+
+/* faq.html */
+.faq-info {
+    background-color: rgba(0,0,0,0.65);
+}
+
+.question {
+    color: #fff;
+    text-shadow: 2px 2px 1px #000,
+                -2px -2px 1px #000;
+    font-weight: bold;
+    font-family: inherit;
+}
+
+.answer {
+    color: #fff;
+    text-shadow: 2px 2px 1px #000,
+                -2px -2px 1px #000;
+    font-family: inherit;
+    padding-bottom: 20px;
+}
+
+.answer a:hover {
+    color: inherit;
+}
+
+.answer a {
+    font-weight: bold;
+}
+
+/* contact.html */
+.email-form {
+    width: 530px;
+    height: 755px;
+}
+
+.contact-info {
+    text-align: center;
+    color: #fff;
+    border-radius: 25px;
+    background-color: rgba(0,0,0,0.65);
+    text-shadow: 2px 2px 1px #000,
+                -2px -2px 1px #000;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.fundraising-link {
+    color: #fff;
+}
+
+.fundraising-link:hover {
+}
+
+.member-photo img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.member-info {
+    color: #fff;
+    text-shadow: 2px 2px 1px #000,
+                -2px -2px 1px #000;
+}
+
+.board-members {
+    background-color: rgba(0,0,0,0.65);
+}
+
+/* fundraising.html */
+
+/* General Formatting */
+figcaption {
+    color: #fff;
+    text-shadow: 2px 2px 1px #000,
+                -2px -2px 1px #000;
+    width: 50%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.65);
+    padding: 5px 5px 5px 5px;
+    font-family: inherit;
+    margin: auto;
+}
+
+a:hover {
+    text-decoration:none;
+    color:inherit;
+    opacity: 50%;
+}
+.colorinherit:hover{
+    color:inherit !important;
+}
+
+.subscription-form {
+    width: 530px;
+    height: 600px;
+}
+
+.modal-footer {
+    max-height: 50px;
+    padding-top: 5px;
+}
