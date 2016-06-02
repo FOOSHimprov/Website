@@ -1,5 +1,5 @@
 var data = {
-	"schoolYear": "2015-2016",
+	"schoolYear": "2016-2017",
 	"fallShows": [
 		{
 			"week": "0",
@@ -194,13 +194,6 @@ var data = {
 			"image": "kaitlinseligson.jpg"
 		},
 		{
-			"name": "Jordan Neely",
-			"year": "4th",
-			"fooshYear": "3rd",
-			"college": "Muir",
-			"image": "jordanneely.jpg"
-		},
-		{
 			"name": "Gouge",
 			"year": "4th",
 			"fooshYear": "3rd",
@@ -292,13 +285,6 @@ var data = {
 			"image": "darrenanthony.jpg"
 		},
 		{
-			"name": "Aaron Figueroa Pacas",
-			"year": "3rd",
-			"fooshYear": "1st",
-			"college": "Muir",
-			"image": "aaronfigueroapacas.jpg"
-		},
-		{
 			"name": "Sami Khan",
 			"year": "3rd",
 			"fooshYear": "1st",
@@ -325,13 +311,6 @@ var data = {
 			"fooshYear": "1st",
 			"college": "Revelle",
 			"image": "christianramirez.jpg"
-		},
-		{
-			"name": "Matt Tan",
-			"year": "2nd",
-			"fooshYear": "1st",
-			"college": "Revelle",
-			"image": "matttan.jpg"
 		},
 		{
 			"name": "Josh Asiaban",
@@ -369,13 +348,6 @@ var data = {
 			"image": "parkermace.jpg"
 		},
 		{
-			"name": "Elijah Garcia",
-			"year": "1st",
-			"fooshYear": "1st",
-			"college": "Revelle",
-			"image": "elijahgarcia.jpg"
-		},
-		{
 			"name": "Rishabh Bhasin",
 			"year": "1st",
 			"fooshYear": "1st",
@@ -386,39 +358,39 @@ var data = {
 	
 	"boardMembers": [
 		{
-			"name": "Robin Richardson",
+			"name": "Chris Rutten",
 			"position": "Coach",
 			"year": "4th",
-			"college": "Marshall",
-			"image": "robin.jpg"
+			"college": "Muir",
+			"image": "chris.jpg"
 		},
 		{
-			"name": "Adam Whitman",
+			"name": "Rithvik Shankar",
 			"position": "President",
 			"year": "3rd",
 			"college": "Warren",
-			"image": "adam.jpg"
+			"image": "rithvik.jpg"
 		},
 		{
-			"name": "Cole Steffensen",
+			"name": "Amin Fozi",
 			"position": "Exec",
-			"year": "4th",
-			"college": "ERC",
-			"image": "cole.jpg"
-		},
-		{
-			"name": "Kaitlin Seligson",
-			"position": "Exec",
-			"year": "4th",
-			"college": "Muir",
-			"image": "kaitlin.jpg"
+			"year": "3rd",
+			"college": "Warren",
+			"image": "amin.jpg"
 		},
 		{
 			"name": "Maddy Rae",
-			"position": "Freshman Exec",
-			"year": "1st",
+			"position": "Exec",
+			"year": "2nd",
 			"college": "Marshall",
 			"image": "maddy.jpg"
+		},
+		{
+			"name": "This could be you!",
+			"position": "Freshman Exec",
+			"year": "",
+			"college": "",
+			"image": "anonymous.png"
 		}
 	],
 
