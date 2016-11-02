@@ -3,35 +3,35 @@ var data = {
 	"fallShows": [
 		{
 			"week": "0",
-			"day": "September 24, 2015",
+			"day": "September 22, 2016",
 			"time": "9pm",
-			"location": "Ledden Auditorium",
+			"location": "Peterson 108",
 			"theme": "Welcome Back!"
 		},
 		{
-			"week": "3",
-			"day": "October 16, 2015",
+			"week": "2",
+			"day": "October 7, 2016",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
-			"theme": ""
+			"theme": "Gotta FOOSH 'em all!"
 		},
 		{
 			"week": "5",
-			"day": "October 30, 2015",
+			"day": "October 28, 2016",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
 			"theme": "Halloween Spooktacular"
 		},
 		{
 			"week": "8",
-			"day": "November 20, 2015",
+			"day": "November 18, 2016",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
-			"theme": "Star Wars: The FOOSH Awakens"
+			"theme": "TBA"
 		},
 		{
 			"week": "10",
-			"day": "December 4, 2015",
+			"day": "December 2, 2016",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
 			"theme": "Ugly Sweaters"
@@ -41,42 +41,42 @@ var data = {
 	"winterShows": [
 		{
 			"week": "1",
-			"day": "January 8, 2016",
+			"day": "TBA",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
 			"theme": "Welcome Back!"
 		},
 		{
 			"week": "3",
-			"day": "January 22, 2016",
+			"day": "January 27, 2017",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
 			"theme": "IMPROVAPOCALYPSE"
 		},
 		{
 			"week": "3",
-			"day": "January 23, 2016",
+			"day": "January 28, 2017",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
 			"theme": "IMPROVACALYPSE NIGHT 2"
 		},
 		{
-			"week": "5",
-			"day": "February 5, 2016",
-			"time": "8pm",
-			"location": "Ledden Auditorium",
-			"theme": "NorCal vs. SoCal"
-		},
-		{
-			"week": "7",
-			"day": "February 19, 2016",
+			"week": "TBA",
+			"day": "TBA",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
 			"theme": ""
 		},
 		{
-			"week": "10",
-			"day": "March 11, 2016",
+			"week": "TBA",
+			"day": "TBA",
+			"time": "8pm",
+			"location": "Ledden Auditorium",
+			"theme": ""
+		},
+		{
+			"week": "TBA",
+			"day": "TBA",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
 			"theme": ""
@@ -85,36 +85,36 @@ var data = {
 
 	"springShows": [
 		{
-			"week": "1",
-			"day": "April 1, 2016",
+			"week": "TBA",
+			"day": "TBA",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
-			"theme": "Survivor!"
+			"theme": ""		
 		},
 		{
-			"week": "3",
-			"day": "April 15, 2016",
+			"week": "TBA",
+			"day": "TBA",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
 			"theme": ""
 		},
 		{
-			"week": "5",
-			"day": "April 29, 2016",
+			"week": "TBA",
+			"day": "TBA",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
-			"theme": "Sungod"
+			"theme": ""		
 		},
 		{
-			"week": "7",
-			"day": "May 13, 2016",
+			"week": "TBA",
+			"day": "TBA",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
-			"theme": "Alumni"
+			"theme": "Alumni"		
 		},
 		{
-			"week": "9",
-			"day": "May 27, 2016",
+			"week": "TBA",
+			"day": "TBA",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
 			"theme": "Senior Sendoff/Gala"
@@ -124,233 +124,156 @@ var data = {
 	"workshops": [
 		{
 			"day": "",
-			"time": "",
-			"location": ""
+			"time": "7pm",
+			"location": "Tioga Hall (meet us outside)"
 		}
 	],
 
 	"allMembers": [
 		{
-			"name": "Robin Richardson",
-			"year": "5th",
-			"fooshYear": "100th",
-			"college": "Marshall",
-			"image": "robinrichardson.jpg"
-		},
-		{
-			"name": "Divesh Patel",
-			"year": "4th",
-			"fooshYear": "4th",
-			"college": "Revelle",
-			"image": "diveshpatel.jpg"
-		},
-		{
-			"name": "Miranda Barron",
-			"year": "4th",
-			"fooshYear": "4th",
-			"college": "Muir",
-			"image": "mirandabarron.jpg"
-		},
-		{
-			"name": "Vicram Vettiyl",
-			"year": "4th",
-			"fooshYear": "4th",
-			"college": "Muir",
-			"image": "vicramvettiyil.jpg"
-		},
-		{
 			"name": "Lea Magro",
-			"year": "4th",
-			"fooshYear": "4th",
+			"year": "5th",
+			"fooshYear": "5th",
 			"college": "Muir",
 			"image": "leamagro.jpg"
 		},
 		{
-			"name": "Cole Steffensen",
-			"year": "4th",
-			"fooshYear": "3rd",
-			"college": "ERC",
-			"image": "colesteffensen.jpg"
-		},
-		{
-			"name": "Allegra Baker",
-			"year": "4th",
-			"fooshYear": "3rd",
-			"college": "ERC",
-			"image": "allegrabaker.jpg"
-		},
-		{
-			"name": "Zack Tarro",
-			"year": "4th",
-			"fooshYear": "3rd",
-			"college": "Sixth",
-			"image": "zacktarro.jpg"
-		},
-		{
-			"name": "Kaitlin Seligson",
-			"year": "4th",
-			"fooshYear": "3rd",
-			"college": "Muir",
-			"image": "kaitlinseligson.jpg"
-		},
-		{
-			"name": "Gouge",
-			"year": "4th",
-			"fooshYear": "3rd",
-			"college": "Revelle",
-			"image": "gouge.jpg"
-		},
-		{
 			"name": "Adam Whitman",
-			"year": "3rd",
-			"fooshYear": "3rd",
+			"year": "4rd",
+			"fooshYear": "4th",
 			"college": "Warren",
 			"image": "adamwhitman.jpg"
 		},
 		{
 			"name": "Maryam Sonboli",
-			"year": "3rd",
-			"fooshYear": "3rd",
+			"year": "4th",
+			"fooshYear": "4th",
 			"college": "Muir",
 			"image": "maryamsonboli.jpg"
 		},
 		{
-			"name": "Saatchi Patell",
-			"year": "3rd",
-			"fooshYear": "3rd",
-			"college": "Muir",
-			"image": "saatchipatell.jpg"
-		},
-		{
 			"name": "Chris Rutten",
-			"year": "3rd",
-			"fooshYear": "2nd",
+			"year": "4th",
+			"fooshYear": "3rd",
 			"college": "Muir",
 			"image": "chrisrutten.jpg"
 		},
 		{
 			"name": "Jasmine Heredia",
-			"year": "3rd",
-			"fooshYear": "2nd",
+			"year": "4th",
+			"fooshYear": "3rd",
 			"college": "Muir",
 			"image": "jasmineheredia.jpg"
 		},
 		{
 			"name": "Ulises Huete",
-			"year": "2nd",
-			"fooshYear": "2nd",
+			"year": "3rd",
+			"fooshYear": "3rd",
 			"college": "Muir",
 			"image": "uliseshuete.jpg"
 		},
 		{
 			"name": "Kendra Quinlan",
-			"year": "2nd",
-			"fooshYear": "2nd",
+			"year": "3rd",
+			"fooshYear": "3rd",
 			"college": "Muir",
 			"image": "kendraquinlan.jpg"
 		},
 		{
 			"name": "Amin Fozi",
-			"year": "2nd",
-			"fooshYear": "2nd",
+			"year": "3rd",
+			"fooshYear": "3rd",
 			"college": "Warren",
 			"image": "aminfozi.jpg"
 		},
 		{
 			"name": "Rithvik Shankar",
-			"year": "2nd",
-			"fooshYear": "2nd",
+			"year": "3rd",
+			"fooshYear": "3rd",
 			"college": "Warren",
 			"image": "rithvikshankar.jpg"
 		},
 		{
 			"name": "Nick Checchia",
-			"year": "2nd",
-			"fooshYear": "2nd",
+			"year": "3rd",
+			"fooshYear": "3rd",
 			"college": "Marshall",
 			"image": "nickchecchia.jpg"
 		},
 		{
 			"name": "Brandon Chan",
-			"year": "2nd",
-			"fooshYear": "2nd",
+			"year": "3rd",
+			"fooshYear": "3rd",
 			"college": "ERC",
 			"image": "brandonchan.jpg"
 		},
 		{
-			"name": "Darren Anthony",
-			"year": "4th",
-			"fooshYear": "1st",
-			"college": "Revelle",
-			"image": "darrenanthony.jpg"
-		},
-		{
 			"name": "Sami Khan",
-			"year": "3rd",
-			"fooshYear": "1st",
+			"year": "4th",
+			"fooshYear": "2nd",
 			"college": "Marshall",
 			"image": "samikhan.jpg"
 		},
 		{
 			"name": "Mai Dinh",
-			"year": "3rd",
-			"fooshYear": "1st",
+			"year": "4th",
+			"fooshYear": "2nd",
 			"college": "Warren",
 			"image": "maidinh.jpg"
 		},
 		{
 			"name": "Niels Griedel",
-			"year": "2nd",
-			"fooshYear": "1st",
+			"year": "3rd",
+			"fooshYear": "2nd",
 			"college": "Revelle",
 			"image": "nielsgriedel.jpg"
 		},
 		{
 			"name": "Christian Ramirez",
-			"year": "2nd",
-			"fooshYear": "1st",
+			"year": "3rd",
+			"fooshYear": "2nd",
 			"college": "Revelle",
 			"image": "christianramirez.jpg"
 		},
 		{
 			"name": "Josh Asiaban",
-			"year": "2nd",
-			"fooshYear": "1st",
+			"year": "3rd",
+			"fooshYear": "2nd",
 			"college": "Muir",
 			"image": "joshasiaban.jpg"
 		},
 		{
 			"name": "Maddy Rae",
-			"year": "1st",
-			"fooshYear": "1st",
+			"year": "2nd",
+			"fooshYear": "2nd",
 			"college": "Marshall",
 			"image": "maddyrae.jpg"
 		},
 		{
 			"name": "Hailey Schneider",
-			"year": "1st",
-			"fooshYear": "1st",
+			"year": "2nd",
+			"fooshYear": "2nd",
 			"college": "Sixth",
 			"image": "haileyschneider.jpg"
 		},
 		{
 			"name": "Michael Yiu",
-			"year": "1st",
-			"fooshYear": "1st",
+			"year": "2nd",
+			"fooshYear": "2nd",
 			"college": "Sixth",
 			"image": "michaelyiu.jpg"
 		},
 		{
 			"name": "Parker Mace",
-			"year": "1st",
-			"fooshYear": "1st",
+			"year": "2nd",
+			"fooshYear": "2nd",
 			"college": "Revelle",
 			"image": "parkermace.jpg"
 		},
 		{
 			"name": "Rishabh Bhasin",
-			"year": "1st",
-			"fooshYear": "1st",
+			"year": "2nd",
+			"fooshYear": "2nd",
 			"college": "Revelle",
 			"image": "rishabhbhasin.jpg"
 		}
@@ -450,6 +373,12 @@ var data = {
 
 	"photoAlbums": [
 		{
+			"link": "https://goo.gl/photos/HrjHHyEKYZQQdWhd7",
+			"image": "pokemonshow.jpg",
+			"title": "Gotta FOOSH 'em All",
+			"date": "Fall Quarter: October 7, 2016"
+		},
+		{
 			"link": "https://goo.gl/photos/tT2a3jmmCpJpc8wbA",
 			"image": "survivor2016.jpg",
 			"title": "Survivor",
@@ -492,7 +421,7 @@ var data = {
 			"date": "Fall Quarter: November 20, 2015"
 		},
 		{
-			"link": "https://goo.gl/photos/ELDGCUYWhnS3bbLs9",
+			"link": "https://goo.gl/photos/pjwBq26TiMCNuBRHA",
 			"image": "halloween2015.JPG",
 			"title": "Halloween",
 			"date": "Fall Quarter: October 30, 2015"
