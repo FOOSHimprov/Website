@@ -18,7 +18,7 @@ function initializePage() {
 	htmlString += "<tr><th>Week</th><th>Date/Time</th><th>Location</th><th>Theme</th></tr>";
 
 	//Fall Quarter Title
-	htmlString += "<tr><td class='quarter' colspan='4'>Fall 2015</td></tr>";
+	htmlString += "<tr><td class='quarter' colspan='4'>Fall 2016</td></tr>";
 
 	//Fill in fall shows
 	var fallShowString = "";
@@ -39,7 +39,7 @@ function initializePage() {
 	htmlString += fallShowString;
 
 	//Winter Quarter Title
-	htmlString += "<tr><td class='quarter' colspan='4'>Winter 2015</td></tr>";
+	htmlString += "<tr><td class='quarter' colspan='4'>Winter 2017</td></tr>";
 
 	//Fill in winter shows
 	var winterShowString = "";
@@ -60,7 +60,7 @@ function initializePage() {
 	htmlString += winterShowString;
 
 	//Spring Quarter Title
-	htmlString += "<tr><td class='quarter' colspan='4'>Spring 2015</td></tr>";
+	htmlString += "<tr><td class='quarter' colspan='4'>Spring 2017</td></tr>";
 
 	//Fill in spring shows
 	var springShowString = "";

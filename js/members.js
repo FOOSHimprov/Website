@@ -18,7 +18,7 @@ function initializePage() {
 		htmlString += "<img src='img/Members/" + data.allMembers[i].image + "' class='img-circle'>";
 
 		//Add caption to figure
-		htmlString += "<figcaption>" + data.allMembers[i].name + "<br>" + data.allMembers[i].year + " Year<br>(" + data.allMembers[i].fooshYear + " FOOSH)<br>" + data.allMembers[i].college + "</figcaption>";
+		htmlString += "<figcaption>" + data.allMembers[i].name + "<br>" + data.allMembers[i].year + " Year<br>(" + data.allMembers[i].fooshYear + " Year FOOSH)<br>" + data.allMembers[i].college + "</figcaption>";
 
 		//End member figure
 		htmlString += "</figure></div>";
