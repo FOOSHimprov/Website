@@ -61,22 +61,22 @@ var data = {
 			"theme": "IMPROVACALYPSE NIGHT 2"
 		},
 		{
-			"week": "5",
-			"day": "February 10, 2017",
+			"week": "6",
+			"day": "February 17, 2017",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
-			"theme": ""
+			"theme": "FOOSHentine's"
 		},
 		{
-			"week": "7",
-			"day": "February 24, 2017",
+			"week": "8",
+			"day": "March 3, 2017",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
-			"theme": ""
+			"theme": "NorCal vs SoCal"
 		},
 		{
-			"week": "9",
-			"day": "March 10, 2017",
+			"week": "10",
+			"day": "March 17, 2017",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
 			"theme": ""
@@ -85,36 +85,36 @@ var data = {
 
 	"springShows": [
 		{
-			"week": "TBA",
-			"day": "TBA",
+			"week": "1",
+			"day": "April 7, 2017",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
-			"theme": ""		
+			"theme": "Survivor"		
 		},
 		{
-			"week": "TBA",
-			"day": "TBA",
+			"week": "4",
+			"day": "April 28, 2017",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
 			"theme": ""
 		},
 		{
-			"week": "TBA",
-			"day": "TBA",
+			"week": "6",
+			"day": "May 12, 2017",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
 			"theme": ""		
 		},
 		{
-			"week": "TBA",
-			"day": "TBA",
+			"week": "8",
+			"day": "May 26, 2017",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
-			"theme": "Alumni"		
+			"theme": ""		
 		},
 		{
-			"week": "TBA",
-			"day": "TBA",
+			"week": "10",
+			"day": "June 9, 2017",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
 			"theme": "Senior Sendoff/Gala"
@@ -300,12 +300,34 @@ var data = {
 			"image": "leoamador.jpg"
 		},
 		{
+			"name": "Desiree Leonard",
+			"year": "1st",
+			"fooshYear": "1st",
+			"college": "Muir",
+			"image": "desireeleonard.jpg"
+		},
+		{
+			"name": "Sean Orellana",
+			"year": "1st",
+			"fooshYear": "1st",
+			"college": "Muir",
+			"image": "seanorellana.jpg"
+		},
+		{
 			"name": "Annamarie Paganelli",
 			"year": "1st",
 			"fooshYear": "1st",
 			"college": "Muir",
 			"image": "annamariepaganelli.jpg"
+		},
+		{
+			"name": "Yuqing Wang (Amellia)",
+			"year": "1st",
+			"fooshYear": "1st",
+			"college": "Muir",
+			"image": "amelliawang.jpg"
 		}
+
 	],
 	
 	"boardMembers": [
@@ -369,7 +391,7 @@ var data = {
 		},
 		{
 			"text": "Fundraising",
-			"url": "https://www.gofundme.com/foosh-goes-to-fracas"
+			"url": "https://www.gofundme.com/fooshisgoingtofracas"
 		},
 		{
 			"text": "FAQ",
@@ -401,6 +423,24 @@ var data = {
 	],
 
 	"photoAlbums": [
+		{
+			"link": "https://goo.gl/photos/hzr5F5gELtu7mN398",
+			"image": "week10w17.jpg",
+			"title": "Week 10 Show",
+			"date": "Winter Quarter: March 17, 2017"
+		},
+		{
+			"link": "https://goo.gl/photos/nQXM3VuoLbz8t2ZU8",
+			"image": "improvapocalypse2017.jpg",
+			"title": "Improvapocalypse",
+			"date": "Winter Quarter: January 27-28, 2017"
+		},
+		{
+			"link": "https://goo.gl/photos/6GUoW5c1KpS2KP6MA",
+			"image": "fooshyear17.jpg",
+			"title": "Happy FOOSH Year",
+			"date": "Winter Quarter: January 13, 2017"
+		},
 		{
 			"link": "https://goo.gl/photos/u6ZdtWTcbK5ChhvZ7",
 			"image": "sweaters16.jpg",
