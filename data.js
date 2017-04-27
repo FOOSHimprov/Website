@@ -20,18 +20,18 @@ var data = {
 			"day": "October 28, 2016",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
-			"theme": "Halloween Spooktacular"
+			"theme": "Nightmare on FOOSH Street"
 		},
 		{
 			"week": "8",
-			"day": "TBA",
+			"day": "November 18, 2016",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
-			"theme": "TBA"
+			"theme": "FOOSH, FOOSH, and Away"
 		},
 		{
 			"week": "10",
-			"day": "TBA",
+			"day": "December 2, 2016",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
 			"theme": "Ugly Sweaters"
@@ -41,42 +41,42 @@ var data = {
 	"winterShows": [
 		{
 			"week": "1",
-			"day": "TBA",
+			"day": "January 13, 2017",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
 			"theme": "Welcome Back!"
 		},
 		{
-			"week": "TBA",
-			"day": "TBA",
+			"week": "3",
+			"day": "January 27, 2017",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
 			"theme": "IMPROVAPOCALYPSE"
 		},
 		{
-			"week": "TBA",
-			"day": "TBA",
+			"week": "3",
+			"day": "January 28, 2017",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
 			"theme": "IMPROVACALYPSE NIGHT 2"
 		},
 		{
-			"week": "TBA",
-			"day": "TBA",
+			"week": "6",
+			"day": "February 17, 2017",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
-			"theme": ""
+			"theme": "FOOSHentine's"
 		},
 		{
-			"week": "TBA",
-			"day": "TBA",
+			"week": "8",
+			"day": "March 3, 2017",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
-			"theme": ""
+			"theme": "NorCal vs SoCal"
 		},
 		{
-			"week": "TBA",
-			"day": "TBA",
+			"week": "10",
+			"day": "March 17, 2017",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
 			"theme": ""
@@ -85,36 +85,36 @@ var data = {
 
 	"springShows": [
 		{
-			"week": "TBA",
-			"day": "TBA",
+			"week": "1",
+			"day": "April 7, 2017",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
-			"theme": ""		
+			"theme": "Survivor"		
 		},
 		{
-			"week": "TBA",
-			"day": "TBA",
+			"week": "4",
+			"day": "April 28, 2017",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
 			"theme": ""
 		},
 		{
-			"week": "TBA",
-			"day": "TBA",
+			"week": "6",
+			"day": "May 12, 2017",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
 			"theme": ""		
 		},
 		{
-			"week": "TBA",
-			"day": "TBA",
+			"week": "8",
+			"day": "May 26, 2017",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
-			"theme": "Alumni"		
+			"theme": ""		
 		},
 		{
-			"week": "TBA",
-			"day": "TBA",
+			"week": "10",
+			"day": "June 9, 2017",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
 			"theme": "Senior Sendoff/Gala"
@@ -123,13 +123,14 @@ var data = {
 
 	"workshops": [
 		{
-			"day": "",
+			"day": "Wednesday, January 18 2017",
 			"time": "7pm",
 			"location": "Tioga Hall (meet us outside)"
 		}
 	],
 
 	"allMembers": [
+		
 		{
 			"name": "Lea Magro",
 			"year": "5th",
@@ -138,11 +139,11 @@ var data = {
 			"image": "leamagro.jpg"
 		},
 		{
-			"name": "Adam Whitman",
-			"year": "4rd",
+			"name": "Rebecca Dao",
+			"year": "4th",
 			"fooshYear": "4th",
-			"college": "Warren",
-			"image": "adamwhitman.jpg"
+			"college": "Muir",
+			"image": "rebeccadao.jpg"
 		},
 		{
 			"name": "Maryam Sonboli",
@@ -152,11 +153,11 @@ var data = {
 			"image": "maryamsonboli.jpg"
 		},
 		{
-			"name": "Chris Rutten",
-			"year": "4th",
-			"fooshYear": "3rd",
-			"college": "Muir",
-			"image": "chrisrutten.jpg"
+			"name": "Adam Whitman",
+			"year": "4rd",
+			"fooshYear": "4th",
+			"college": "Warren",
+			"image": "adamwhitman.jpg"
 		},
 		{
 			"name": "Jasmine Heredia",
@@ -164,6 +165,13 @@ var data = {
 			"fooshYear": "3rd",
 			"college": "Muir",
 			"image": "jasmineheredia.jpg"
+		},
+		{
+			"name": "Chris Rutten",
+			"year": "4th",
+			"fooshYear": "3rd",
+			"college": "Muir",
+			"image": "chrisrutten.jpg"
 		},
 		{
 			"name": "Ulises Huete",
@@ -180,6 +188,13 @@ var data = {
 			"image": "kendraquinlan.jpg"
 		},
 		{
+			"name": "Nick Checchia",
+			"year": "3rd",
+			"fooshYear": "3rd",
+			"college": "Marshall",
+			"image": "nickchecchia.jpg"
+		},
+		{
 			"name": "Amin Fozi",
 			"year": "3rd",
 			"fooshYear": "3rd",
@@ -194,13 +209,6 @@ var data = {
 			"image": "rithvikshankar.jpg"
 		},
 		{
-			"name": "Nick Checchia",
-			"year": "3rd",
-			"fooshYear": "3rd",
-			"college": "Marshall",
-			"image": "nickchecchia.jpg"
-		},
-		{
 			"name": "Brandon Chan",
 			"year": "3rd",
 			"fooshYear": "3rd",
@@ -213,13 +221,6 @@ var data = {
 			"fooshYear": "2nd",
 			"college": "Marshall",
 			"image": "samikhan.jpg"
-		},
-		{
-			"name": "Mai Dinh",
-			"year": "4th",
-			"fooshYear": "2nd",
-			"college": "Warren",
-			"image": "maidinh.jpg"
 		},
 		{
 			"name": "Niels Griedel",
@@ -243,11 +244,39 @@ var data = {
 			"image": "joshasiaban.jpg"
 		},
 		{
+			"name": "Ozzie Mangayat",
+			"year": "3rd",
+			"fooshYear": "2nd",
+			"college": "Sixth",
+			"image": "ozziemangayat.jpg"
+		},
+		{
+			"name": "Rishabh Bhasin",
+			"year": "2nd",
+			"fooshYear": "2nd",
+			"college": "Revelle",
+			"image": "rishabhbhasin.jpg"
+		},
+		{
+			"name": "Parker Mace",
+			"year": "2nd",
+			"fooshYear": "2nd",
+			"college": "Revelle",
+			"image": "parkermace.jpg"
+		},
+		{
 			"name": "Maddy Rae",
 			"year": "2nd",
 			"fooshYear": "2nd",
 			"college": "Marshall",
 			"image": "maddyrae.jpg"
+		},
+		{
+			"name": "Liam Huber",
+			"year": "2nd",
+			"fooshYear": "2nd",
+			"college": "Sixth",
+			"image": "liamhuber.jpg"
 		},
 		{
 			"name": "Hailey Schneider",
@@ -264,19 +293,41 @@ var data = {
 			"image": "michaelyiu.jpg"
 		},
 		{
-			"name": "Parker Mace",
+			"name": "Leonardo Vladimir Amador",
 			"year": "2nd",
-			"fooshYear": "2nd",
-			"college": "Revelle",
-			"image": "parkermace.jpg"
+			"fooshYear": "1st",
+			"college": "Muir",
+			"image": "leoamador.jpg"
 		},
 		{
-			"name": "Rishabh Bhasin",
-			"year": "2nd",
-			"fooshYear": "2nd",
-			"college": "Revelle",
-			"image": "rishabhbhasin.jpg"
+			"name": "Desiree Leonard",
+			"year": "1st",
+			"fooshYear": "1st",
+			"college": "Muir",
+			"image": "desireeleonard.jpg"
+		},
+		{
+			"name": "Sean Orellana",
+			"year": "1st",
+			"fooshYear": "1st",
+			"college": "Muir",
+			"image": "seanorellana.jpg"
+		},
+		{
+			"name": "Annamarie Paganelli",
+			"year": "1st",
+			"fooshYear": "1st",
+			"college": "Muir",
+			"image": "annamariepaganelli.jpg"
+		},
+		{
+			"name": "Yuqing Wang (Amellia)",
+			"year": "1st",
+			"fooshYear": "1st",
+			"college": "Muir",
+			"image": "amelliawang.jpg"
 		}
+
 	],
 	
 	"boardMembers": [
@@ -309,11 +360,11 @@ var data = {
 			"image": "maddy.jpg"
 		},
 		{
-			"name": "This could be you!",
+			"name": "Annamarie Paganelli",
 			"position": "Freshman Exec",
-			"year": "",
-			"college": "",
-			"image": "anonymous.png"
+			"year": "1st",
+			"college": "Muir",
+			"image": "annamarie.jpg"
 		}
 	],
 
@@ -340,7 +391,7 @@ var data = {
 		},
 		{
 			"text": "Fundraising",
-			"url": "https://www.gofundme.com/4ec95x4k"
+			"url": "https://www.gofundme.com/fooshisgoingtofracas"
 		},
 		{
 			"text": "FAQ",
@@ -372,6 +423,41 @@ var data = {
 	],
 
 	"photoAlbums": [
+		{
+			"link": "https://goo.gl/photos/hzr5F5gELtu7mN398",
+			"image": "week10w17.jpg",
+			"title": "Week 10 Show",
+			"date": "Winter Quarter: March 17, 2017"
+		},
+		{
+			"link": "https://goo.gl/photos/nQXM3VuoLbz8t2ZU8",
+			"image": "improvapocalypse2017.jpg",
+			"title": "Improvapocalypse",
+			"date": "Winter Quarter: January 27-28, 2017"
+		},
+		{
+			"link": "https://goo.gl/photos/6GUoW5c1KpS2KP6MA",
+			"image": "fooshyear17.jpg",
+			"title": "Happy FOOSH Year",
+			"date": "Winter Quarter: January 13, 2017"
+		},
+		{
+			"link": "https://goo.gl/photos/u6ZdtWTcbK5ChhvZ7",
+			"image": "sweaters16.jpg",
+			"title": "Ugly Sweaters",
+			"date": "Fall Quarter: December 2, 2016"
+		},
+		{
+			"link": "https://goo.gl/photos/FaDb9krZ8U77xLP38",
+			"image": "week8f16.jpg",
+			"title": "Week 8 Show",
+			"date": "Fall Quarter: November 18, 2016"
+		},{
+			"link": "https://goo.gl/photos/BFTiZSTKyA6KeQCN9",
+			"image": "spooktacular16.jpg",
+			"title": "Nightmare on FOOSH Street",
+			"date": "Fall Quarter: October 28, 2016"
+		},
 		{
 			"link": "https://goo.gl/photos/HrjHHyEKYZQQdWhd7",
 			"image": "pokemonshow.jpg",
