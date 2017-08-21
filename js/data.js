@@ -15,108 +15,115 @@ var data = {
 			"theme": ""
 		},
 		{
-			"week": "5",
-			"day": "October 28, 2016",
+			"week": "4",
+			"day": "October 27, 2017",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
-			"theme": "Nightmare on FOOSH Street"
+			"theme": "Halloween"
+		},
+		{
+			"week": "6",
+			"day": "TBA",
+			"time": "TBA",
+			"location": "Ledden Auditorium",
+			"theme": ""
 		},
 		{
 			"week": "8",
-			"day": "November 18, 2016",
-			"time": "8pm",
+			"day": "TBA",
+			"time": "TBA",
 			"location": "Ledden Auditorium",
-			"theme": "FOOSH, FOOSH, and Away"
+			"theme": ""
 		},
 		{
 			"week": "10",
-			"day": "December 2, 2016",
-			"time": "8pm",
+			"day": "TBA",
+			"time": "TBA",
 			"location": "Ledden Auditorium",
-			"theme": "Ugly Sweaters"
+			"theme": ""
 		}
 	],
 
 	"winterShows": [
 		{
-			"week": "TBD",
-			"day": "TBD",
-			"time": "TBD",
-			"location": "TBD",
+			"week": "TBA",
+			"day": "TBA",
+			"time": "TBA",
+			"location": "TBA",
 			"theme": ""
 		},
 		{
-			"week": "3",
-			"day": "January 27, 2017",
-			"time": "8pm",
-			"location": "Ledden Auditorium",
-			"theme": "IMPROV-APOCALYPSE"
+			"week": "TBA",
+			"day": "TBA",
+			"time": "TBA",
+			"location": "TBA",
+			"theme": ""
 		},
 		{
-			"week": "3",
-			"day": "January 28, 2017",
-			"time": "8pm",
-			"location": "Ledden Auditorium",
-			"theme": "IMPROV-APOCALYPSE NIGHT 2"
+			"week": "TBA",
+			"day": "TBA",
+			"time": "TBA",
+			"location": "TBA",
+			"theme": ""
 		},
 		{
-			"week": "6",
-			"day": "February 17, 2017",
-			"time": "8pm",
-			"location": "Ledden Auditorium",
-			"theme": "FOOSHentine's"
+			"week": "TBA",
+			"day": "TBA",
+			"time": "TBA",
+			"location": "TBA",
+			"theme": ""
 		},
 		{
-			"week": "8",
-			"day": "March 3, 2017",
-			"time": "8pm",
-			"location": "Ledden Auditorium",
-			"theme": "NorCal vs SoCal"
+			"week": "TBA",
+			"day": "TBA",
+			"time": "TBA",
+			"location": "TBA",
+			"theme": ""
 		},
 		{
-			"week": "10",
-			"day": "March 17, 2017",
-			"time": "8pm",
-			"location": "Ledden Auditorium",
+			"week": "TBA",
+			"day": "TBA",
+			"time": "TBA",
+			"location": "TBA",
 			"theme": ""
 		}
 	],
 
 	"springShows": [
 		{
-			"week": "1",
-			"day": "April 7, 2017",
-			"time": "8pm",
-			"location": "Ledden Auditorium",
-			"theme": "Survivor"		
+			"week": "TBA",
+			"day": "TBA",
+			"time": "TBA",
+			"location": "TBA",
+			"theme": ""	
 		},
 		{
-			"week": "4",
-			"day": "April 28, 2017",
-			"time": "8pm",
-			"location": "Ledden Auditorium",
-			"theme": "Sungod"
+			"week": "TBA",
+			"day": "TBA",
+			"time": "TBA",
+			"location": "TBA",
+			"theme": ""
 		},
 		{
-			"week": "6",
-			"day": "May 12, 2017",
-			"time": "8pm",
-			"location": "Ledden Auditorium",
+			"week": "TBA",
+			"day": "TBA",
+			"time": "TBA",
+			"location": "TBA",
+			"theme": ""	
+		},
+		{
+			"week": "TBA",
+			"day": "TBA",
+			"time": "TBA",
+			"location": "TBA",
 			"theme": ""		
 		},
 		{
-			"week": "8",
-			"day": "Mary 26, 2017",
-			"time": "8pm",
-			"location": "Ledden Auditorium",
-			"theme": "Alumni"		
-		},
-		{
-			"week": "10",
-			"day": "June 9, 2017",
-			"time": "8pm",
-			"location": "Ledden Auditorium",
-			"theme": "Senior Sendoff/Gala"
+			"week": "TBA",
+			"day": "TBA",
+			"time": "TBA",
+			"location": "TBA",
+			"theme": ""
 		}
 	],
 
@@ -184,13 +191,6 @@ var data = {
 			"fooshYear": "3rd",
 			"college": "Revelle",
 			"image": "nielsgriedel.jpg"
-		},
-		{
-			"name": "Christian Ramirez",
-			"year": "4th",
-			"fooshYear": "3rd",
-			"college": "Revelle",
-			"image": "christianramirez.jpg"
 		},
 		{
 			"name": "Josh Asiaban",

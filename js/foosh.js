@@ -312,7 +312,7 @@ function showSchedule() {
             fallString += "<div class='row'><div class='col-xs-3'><p>Week TBA</p></div>";    
         else
             fallString += "<div class='row'><div class='col-xs-3'><p>Week " + data.fallShows[i].week + "</p></div>";
-        if(data.fallShows[i].day === "" || data.fallShows[i].day === "TBA")
+        if(data.fallShows[i].day === "" || data.fallShows[i].day === "TBA" || data.fallShows[i].day === "TBD")
             fallString += "<div class='col-xs-3'><p>TBA</p></div>";
         else
             fallString += "<div class='col-xs-3'><p>" + getDateString(new Date(data.fallShows[i].day)) + " at " + data.fallShows[i].time + "</p></div>";
@@ -320,7 +320,7 @@ function showSchedule() {
             fallString += "<div class='col-xs-3'><p>TBA</p></div>";
         else
             fallString += "<div class='col-xs-3'><p>" + data.fallShows[i].location + "</p></div>";
-        if(data.fallShows[i].theme === "" && (data.fallShows[i].day === "" || data.fallShows[i].day === "TBA"))
+        if(data.fallShows[i].theme === "" && (data.fallShows[i].day === "" || data.fallShows[i].day === "TBA" || data.fallShows[i].day === "TBD"))
             fallString += "<div class='col-xs-3'><p>TBA</p></div></div>";
         else if (data.fallShows[i].theme === "")
             fallString += "<div class='col-xs-3'><p>No theme</p></div></div>";
@@ -340,7 +340,7 @@ function showSchedule() {
             winterString += "<div class='row'><div class='col-xs-3'><p>Week TBA</p></div>";    
         else
             winterString += "<div class='row'><div class='col-xs-3'><p>Week " + data.winterShows[i].week + "</p></div>";
-        if(data.winterShows[i].day === "" || data.winterShows[i].day === "TBA")
+        if(data.winterShows[i].day === "" || data.winterShows[i].day === "TBA" || data.winterShows[i].day === "TBD")
             winterString += "<div class='col-xs-3'><p>TBA</p></div>";
         else
             winterString += "<div class='col-xs-3'><p>" + getDateString(new Date(data.winterShows[i].day)) + " at " + data.winterShows[i].time + "</p></div>";
@@ -348,7 +348,7 @@ function showSchedule() {
             winterString += "<div class='col-xs-3'><p>TBA</p></div>";
         else
             winterString += "<div class='col-xs-3'><p>" + data.winterShows[i].location + "</p></div>";
-        if(data.winterShows[i].theme === "" && (data.winterShows[i].day === "" || data.winterShows[i].day === "TBA"))
+        if(data.winterShows[i].theme === "" && (data.winterShows[i].day === "" || data.winterShows[i].day === "TBA" || data.winterShows[i].day === "TBD"))
             winterString += "<div class='col-xs-3'><p>TBA</p></div></div>";
         else if (data.winterShows[i].theme === "")
             winterString += "<div class='col-xs-3'><p>No theme</p></div></div>";
@@ -368,7 +368,7 @@ function showSchedule() {
             springString += "<div class='row'><div class='col-xs-3'><p>Week TBA</p></div>";    
         else
             springString += "<div class='row'><div class='col-xs-3'><p>Week " + data.springShows[i].week + "</p></div>";
-        if(data.springShows[i].day === "" || data.springShows[i].day === "TBA")
+        if(data.springShows[i].day === "" || data.springShows[i].day === "TBA" || data.springShows[i].day === "TBD")
             springString += "<div class='col-xs-3'><p>TBA</p></div>";
         else
             springString += "<div class='col-xs-3'><p>" + getDateString(new Date(data.springShows[i].day)) + " at " + data.springShows[i].time + "</p></div>";
@@ -376,7 +376,7 @@ function showSchedule() {
             springString += "<div class='col-xs-3'><p>TBA</p></div>";
         else
             springString += "<div class='col-xs-3'><p>" + data.springShows[i].location + "</p></div>";
-        if(data.springShows[i].theme === "" && (data.springShows[i].day === "" || data.springShows[i].day === "TBA"))
+        if(data.springShows[i].theme === "" && (data.springShows[i].day === "" || data.springShows[i].day === "TBA" || data.springShows[i].day === "TBD"))
             springString += "<div class='col-xs-3'><p>TBA</p></div></div>";
         else if (data.springShows[i].theme === "")
             springString += "<div class='col-xs-3'><p>No theme</p></div></div>";
