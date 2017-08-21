@@ -1,9 +1,8 @@
 var data = {
-	"schoolYear": "2016-2017",
 	"fallShows": [
 		{
 			"week": "0",
-			"day": "September 22, 2016",
+			"day": "September 28, 2017",
 			"time": "9pm",
 			"location": "Peterson 108",
 			"theme": "Welcome Back!"
@@ -40,25 +39,25 @@ var data = {
 
 	"winterShows": [
 		{
-			"week": "1",
-			"day": "January 13, 2017",
-			"time": "8pm",
-			"location": "Ledden Auditorium",
-			"theme": "Welcome Back!"
+			"week": "TBD",
+			"day": "TBD",
+			"time": "TBD",
+			"location": "TBD",
+			"theme": ""
 		},
 		{
 			"week": "3",
 			"day": "January 27, 2017",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
-			"theme": "IMPROVAPOCALYPSE"
+			"theme": "IMPROV-APOCALYPSE"
 		},
 		{
 			"week": "3",
 			"day": "January 28, 2017",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
-			"theme": "IMPROVACALYPSE NIGHT 2"
+			"theme": "IMPROV-APOCALYPSE NIGHT 2"
 		},
 		{
 			"week": "6",
@@ -96,7 +95,7 @@ var data = {
 			"day": "April 28, 2017",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
-			"theme": ""
+			"theme": "Sungod"
 		},
 		{
 			"week": "6",
@@ -107,10 +106,10 @@ var data = {
 		},
 		{
 			"week": "8",
-			"day": "May 26, 2017",
+			"day": "Mary 26, 2017",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
-			"theme": ""		
+			"theme": "Alumni"		
 		},
 		{
 			"week": "10",
@@ -130,316 +129,191 @@ var data = {
 	],
 
 	"allMembers": [
-		
-		{
-			"name": "Lea Magro",
-			"year": "5th",
-			"fooshYear": "5th",
-			"college": "Muir",
-			"image": "leamagro.jpg"
-		},
-		{
-			"name": "Rebecca Dao",
-			"year": "4th",
-			"fooshYear": "4th",
-			"college": "Muir",
-			"image": "rebeccadao.jpg"
-		},
-		{
-			"name": "Maryam Sonboli",
-			"year": "4th",
-			"fooshYear": "4th",
-			"college": "Muir",
-			"image": "maryamsonboli.jpg"
-		},
-		{
-			"name": "Adam Whitman",
-			"year": "4rd",
-			"fooshYear": "4th",
-			"college": "Warren",
-			"image": "adamwhitman.jpg"
-		},
 		{
 			"name": "Jasmine Heredia",
-			"year": "4th",
-			"fooshYear": "3rd",
+			"year": "5th",
+			"fooshYear": "4th",
 			"college": "Muir",
 			"image": "jasmineheredia.jpg"
 		},
 		{
-			"name": "Chris Rutten",
-			"year": "4th",
-			"fooshYear": "3rd",
-			"college": "Muir",
-			"image": "chrisrutten.jpg"
-		},
-		{
 			"name": "Ulises Huete",
-			"year": "3rd",
-			"fooshYear": "3rd",
+			"year": "4th",
+			"fooshYear": "4th",
 			"college": "Muir",
 			"image": "uliseshuete.jpg"
 		},
 		{
 			"name": "Kendra Quinlan",
-			"year": "3rd",
-			"fooshYear": "3rd",
+			"year": "4th",
+			"fooshYear": "4th",
 			"college": "Muir",
 			"image": "kendraquinlan.jpg"
 		},
 		{
 			"name": "Nick Checchia",
-			"year": "3rd",
-			"fooshYear": "3rd",
+			"year": "4th",
+			"fooshYear": "4th",
 			"college": "Marshall",
 			"image": "nickchecchia.jpg"
 		},
 		{
 			"name": "Amin Fozi",
-			"year": "3rd",
-			"fooshYear": "3rd",
+			"year": "4th",
+			"fooshYear": "4th",
 			"college": "Warren",
 			"image": "aminfozi.jpg"
 		},
 		{
 			"name": "Rithvik Shankar",
-			"year": "3rd",
-			"fooshYear": "3rd",
+			"year": "4th",
+			"fooshYear": "4th",
 			"college": "Warren",
 			"image": "rithvikshankar.jpg"
 		},
 		{
 			"name": "Brandon Chan",
-			"year": "3rd",
-			"fooshYear": "3rd",
+			"year": "4th",
+			"fooshYear": "4th",
 			"college": "ERC",
 			"image": "brandonchan.jpg"
 		},
 		{
-			"name": "Sami Khan",
-			"year": "4th",
-			"fooshYear": "2nd",
-			"college": "Marshall",
-			"image": "samikhan.jpg"
-		},
-		{
 			"name": "Niels Griedel",
-			"year": "3rd",
-			"fooshYear": "2nd",
+			"year": "4th",
+			"fooshYear": "3rd",
 			"college": "Revelle",
 			"image": "nielsgriedel.jpg"
 		},
 		{
 			"name": "Christian Ramirez",
-			"year": "3rd",
-			"fooshYear": "2nd",
+			"year": "4th",
+			"fooshYear": "3rd",
 			"college": "Revelle",
 			"image": "christianramirez.jpg"
 		},
 		{
 			"name": "Josh Asiaban",
-			"year": "3rd",
-			"fooshYear": "2nd",
+			"year": "4th",
+			"fooshYear": "3rd",
 			"college": "Muir",
 			"image": "joshasiaban.jpg"
 		},
 		{
 			"name": "Ozzie Mangayat",
-			"year": "3rd",
-			"fooshYear": "2nd",
+			"year": "4th",
+			"fooshYear": "3rd",
 			"college": "Sixth",
 			"image": "ozziemangayat.jpg"
 		},
 		{
 			"name": "Rishabh Bhasin",
-			"year": "2nd",
-			"fooshYear": "2nd",
+			"year": "3rd",
+			"fooshYear": "3rd",
 			"college": "Revelle",
 			"image": "rishabhbhasin.jpg"
 		},
 		{
 			"name": "Parker Mace",
-			"year": "2nd",
-			"fooshYear": "2nd",
+			"year": "3rd",
+			"fooshYear": "3rd",
 			"college": "Revelle",
 			"image": "parkermace.jpg"
 		},
 		{
 			"name": "Maddy Rae",
-			"year": "2nd",
-			"fooshYear": "2nd",
+			"year": "3rd",
+			"fooshYear": "3rd",
 			"college": "Marshall",
 			"image": "maddyrae.jpg"
 		},
 		{
 			"name": "Liam Huber",
-			"year": "2nd",
-			"fooshYear": "2nd",
+			"year": "3rd",
+			"fooshYear": "3rd",
 			"college": "Sixth",
 			"image": "liamhuber.jpg"
 		},
 		{
 			"name": "Hailey Schneider",
-			"year": "2nd",
-			"fooshYear": "2nd",
+			"year": "3rd",
+			"fooshYear": "3rd",
 			"college": "Sixth",
 			"image": "haileyschneider.jpg"
 		},
 		{
 			"name": "Michael Yiu",
-			"year": "2nd",
-			"fooshYear": "2nd",
+			"year": "3rd",
+			"fooshYear": "3rd",
 			"college": "Sixth",
 			"image": "michaelyiu.jpg"
 		},
 		{
 			"name": "Leonardo Vladimir Amador",
-			"year": "2nd",
-			"fooshYear": "1st",
+			"year": "3rd",
+			"fooshYear": "2nd",
 			"college": "Muir",
 			"image": "leoamador.jpg"
 		},
 		{
-			"name": "Desiree Leonard",
-			"year": "1st",
-			"fooshYear": "1st",
-			"college": "Muir",
-			"image": "desireeleonard.jpg"
-		},
-		{
-			"name": "Sean Orellana",
-			"year": "1st",
-			"fooshYear": "1st",
-			"college": "Muir",
-			"image": "seanorellana.jpg"
-		},
-		{
 			"name": "Annamarie Paganelli",
-			"year": "1st",
-			"fooshYear": "1st",
+			"year": "2nd",
+			"fooshYear": "2nd",
 			"college": "Muir",
 			"image": "annamariepaganelli.jpg"
-		},
-		{
-			"name": "Yuqing Wang (Amellia)",
-			"year": "1st",
-			"fooshYear": "1st",
-			"college": "Muir",
-			"image": "amelliawang.jpg"
 		}
-
 	],
 	
 	"boardMembers": [
 		{
-			"name": "Chris Rutten",
+			"name": "Parker Mace",
 			"position": "Coach",
-			"year": "4th",
-			"college": "Muir",
-			"image": "chris.jpg"
+			"year": "3th",
+			"college": "Revelle",
+			"image": "parker.jpg"
 		},
 		{
-			"name": "Rithvik Shankar",
+			"name": "Rishabh Bhasin",
 			"position": "President",
 			"year": "3rd",
-			"college": "Warren",
-			"image": "rithvik.jpg"
+			"college": "Revelle",
+			"image": "rishabh.jpg"
 		},
 		{
-			"name": "Amin Fozi",
+			"name": "Niels Griedel",
+			"position": "Exec",
+			"year": "4th",
+			"college": "Revelle",
+			"image": "niels.jpg"
+		},
+		{
+			"name": "Leonardo Vladimir Amador",
 			"position": "Exec",
 			"year": "3rd",
-			"college": "Warren",
-			"image": "amin.jpg"
-		},
-		{
-			"name": "Maddy Rae",
-			"position": "Exec",
-			"year": "2nd",
-			"college": "Marshall",
-			"image": "maddy.jpg"
-		},
-		{
-			"name": "Annamarie Paganelli",
-			"position": "Freshman Exec",
-			"year": "1st",
 			"college": "Muir",
-			"image": "annamarie.jpg"
-		}
-	],
-
-	"navLinks": [
-		{
-			"text": "Home",
-			"url": "index.html"
+			"image": "leo.jpg"
 		},
 		{
-			"text": "About",
-			"url": "about.html"
-		},
-		{
-			"text": "Shows",
-			"url": "shows.html"
-		},
-		{
-			"text": "Pictures",
-			"url": "pictures.html"
-		},
-		{
-			"text": "Members",
-			"url": "members.html"
-		},
-		{
-			"text": "Fundraising",
-			"url": "https://www.gofundme.com/fooshisgoingtofracas"
-		},
-		{
-			"text": "FAQ",
-			"url": "faq.html"
-		},
-		{
-			"text": "Contact",
-			"url": "contact.html"
-		}
-	],
-	
-	"socialMedia": [
-		{
-			"link": "https://www.facebook.com/FooshImprovComedy/",
-			"image": "facebook.jpg"
-		},
-		{
-			"link": "https://twitter.com/FooshImprov",
-			"image": "twitter.jpg"
-		},
-		{
-			"link": "https://www.instagram.com/fooshimprov/",
-			"image": "instagram.jpg"
-		},
-		{
-			"link": "http://fooshimprov.tumblr.com/",
-			"image": "tumblr.jpg"
+			"name": "This could be you!",
+			"position": "Freshman Exec",
+			"year": "",
+			"college": "",
+			"image": "anonymous.png"
 		}
 	],
 
 	"photoAlbums": [
 		{
-			"link": "https://goo.gl/photos/hzr5F5gELtu7mN398",
-			"image": "week10w17.jpg",
-			"title": "Week 10 Show",
-			"date": "Winter Quarter: March 17, 2017"
-		},
-		{
 			"link": "https://goo.gl/photos/nQXM3VuoLbz8t2ZU8",
 			"image": "improvapocalypse2017.jpg",
 			"title": "Improvapocalypse",
-			"date": "Winter Quarter: January 27-28, 2017"
+			"date": "Winter Quarter: December 27-28, 2016"
 		},
 		{
 			"link": "https://goo.gl/photos/6GUoW5c1KpS2KP6MA",
 			"image": "fooshyear17.jpg",
 			"title": "Happy FOOSH Year",
-			"date": "Winter Quarter: January 13, 2017"
+			"date": "Winter Quarter: December 13, 2016"
 		},
 		{
 			"link": "https://goo.gl/photos/u6ZdtWTcbK5ChhvZ7",
@@ -554,5 +428,50 @@ var data = {
 			"title": "Improvapocalypse",
 			"date": "Winter Quarter: January 30-31, 2015"
 		}
-	]		
+	],
+
+	"aboutSection": [
+		{
+			"title": "About FOOSH",
+			"subtitle": "What is FOOSH?",
+			"image": "about.jpg",
+			"text": "FOOSH is UCSD's short-form improvisational comedy troupe! Founded in 2003, our primary goal is learning, teaching, and practicing improv comedy. Although we are based out of Muir College, we are open to any current student at UCSD, whether they have any experience in improv or not! We come together at least twice a week throughout the academic year to improve our improv, while also creating life-long friendships and a mutual trust between improvisers.<br><br>Throughout the year, we hold around fifteen performaces, during which select members of the club, chosen by the executive board, will perform in front of a live audience to test out the skills they've been practicing. Those shows are held on-campus and completely free to attend!<br><br>",
+			"showLabel": "Next Show: ",
+			"workshopLabel": "Next Workshop: "
+		}
+	],
+	"showsSection": [
+		{
+			"title": "Shows",
+			"schoolYear": "2017-2018"
+		}
+	],
+	"membersSection": [
+		{
+			"title": "Members",
+		}
+	],
+	"photoSection": [
+		{
+			"title": "Photos",
+		}
+	],
+	"contactSection": [
+		{
+			"title": "Contact Us",
+		},
+		{
+			"options": [
+				{
+					"text": "I want to join FOOSH!"
+				},
+				{
+					"text": "I want to watch FOOSH!"
+				},
+				{
+					"text": "I have a question about FOOSH!"
+				}
+			]
+		}
+	]
 };

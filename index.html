@@ -12,114 +12,286 @@
     <title>FOOSH</title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Theme CSS -->
     <link href="css/foosh.css" rel="stylesheet">
-
-    <!-- Fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- AngularJS -->
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
     <![endif]-->
 
 </head>
 
 <body>
-    <div class="container">
-        <div class="navbar-wrapper"></div>
 
-        <div class="header">
-            <div class="page-title">FOOSH Improv Comedy</div>
-            <div class="description">UCSD's Premier Short-Form Improv Comedy Troupe</div>
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <div class="row">
+                            <img class="brand-img" src="img/brandon.png"/>
+                        <div class="col-xs-2">
+                            <span class="brand-txt">FOOSH</span></a>
+                        </div>
+                    </div>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#shows">Shows</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#members">Members</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#photos">Photos</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-        <div class="info">
-            <div class="row" style="padding-top:15px">
-                <div class="col-md-7">
-                    <figure class="photo" align="center">
-                        <img src="img/halloweengroup.jpg"/>
-                    </figure>
+    <!-- Header -->
+    <header id="page-top">
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading"><img class="logo" src="img/foosh.png"/></div>
+                <a href="#about" class="btn btn-circle page-scroll">
+                    <i class="fa fa-angle-double-down animated"></i>
+                </a>
+                <!--<div class="planet-nav">
+                    <div class="row">
+                        <div class="planet planet-section col-sm-offset-1 col-sm-2 col-md-3 col-xs-2">
+                            <a href="#about" class="page-scroll"><img class="planet" src="img/blue-planet.png"/></a>
+                            <a href="#about" class="page-scroll"><p class="link-text">About</p></a>
+                        </div>
+                        <div class="planet planet-section col-xs-offset-1 col-xs-2 col-sm-offset-2 col-sm-2 col-md-offset-3 col-md-3">
+                            <a href="#shows" class="page-scroll"><img class="planet" src="img/red-planet.png"/></a>
+                            <a href="#shows" class="page-scroll"><p class="link-text">Shows</p></a>
+                        </div>
+                        <div class="planet planet-section col-xs-offset-1 col-xs-2 col-sm-offset-2 col-sm-2 col-md-offset-3 col-md-3">
+                            <a href="#members" class="page-scroll"><img class="planet" src="img/purple-planet.png"/></a>
+                            <a href="#members" class="page-scroll"><p class="link-text">Members</p></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="planet planet-section col-xs-offset-2 col-xs-3 col-sm-offset-3">
+                            <a href="#photos" class="page-scroll"><img class="planet" src="img/dark-blue-planet.png"/></a>
+                            <a href="#photos" class="page-scroll"><p class="link-text">Photos</p></a>
+                        </div>
+                        <div class="planet planet-section col-xs-offset-2 col-xs-3 col-md-offset-3 col-sm-offset-2">
+                            <a href="#contact" class="page-scroll"><img class="planet" src="img/blue-green-planet.png"/></a>
+                            <a href="#contact" class="page-scroll"><p class="link-text">Contact</p></a>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="bg-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <h2 class="section-heading"></h2>
                 </div>
-                <div class="col-md-5">
-                    <table class="home-table">
-                        <caption align="bottom">*Dates, times, and locations are all subject to change</caption>
-                        <tr>
-                            <td class="home-section-title">Want to watch?</td>
-                        </tr>
-                        <tr>
-                            <td class="home-text">
-                                Our next show is:<br><span class="dates" id="next-show"></span><br>
-                                RSVP to the event on Facebook so you don't miss anything!<br>Don't want to miss out on a show? Click 
-                                <a data-toggle="modal" data-target="#myModal" href="#">here</a> to subscribe to our informational pre-show newsletter!
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="home-section-title"><br>Want to join?</td>
-                        </tr>
-                        <tr>
-                            <td class="home-text">
-                                We accept new members at the beginning of Fall and Winter quarter<br>
-                                Just attend one of these mandatory workshops:<br>
-                                <span class="dates" id="next-workshop"></span><br>
-                                Don't want to miss out on any workshop information? Click <a data-toggle="modal" data-target="#myModal" href="#">here</a> to subscribe to our email list for prospective members!
-                            </td>
-                        </tr>
-                    </table>
+            </div>
+            <div class="row group-photo">
+                <div class="col-lg-4 col-xs-12">
+                    <p id="about-group-photo"></p>
+                </div>
+                <div class="col-lg-offset-4 col-lg-4 col-xs-12">
+                    <h3 class="text-center" id="about-text-title"></h3>
+                    <p class="text-center" id="about-text"></p>
+                    <p class="text-center" id="date info">
+                        <span class="date-label" id="show-date-label"></span><span id="next-show"></span>
+                        <br>
+                        <span class="date-label" id="workshop-date-label"></span><span id="next-workshop"></span>
+                    </p>
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class="social-media"></div>
-    </div>
-
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <div class="container">
-                        <iframe class="subscription-form" src="https://docs.google.com/forms/d/1IKT9SLKuZXKVu9F1G-A6aoB92epM55ftsnOIyS9B7Kk/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    <!-- Shows Section -->
+    <section id="shows" class="bg-darkest-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <h2 class="section-heading"></h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="show-schedule text-center">
+                        <h4>Fall Quarter</h4>
                     </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+            <div class="text-center" id="fall-shows">
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="show-schedule text-center">
+                        <h4>Winter Quarter</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center" id="winter-shows">
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="show-schedule text-center">
+                        <h4>Spring Quarter</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center" id="spring-shows">
+            </div>
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2 text-center">
+                    <p class="large text-muted">*All information is subject to change without notice.</p>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Members Section -->
+    <section id="members" class="bg-purple">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <h2 class="section-heading"></h2>
+                </div>
+            </div>
+            <div class="row" id="members-grid">
+            </div>
+        </div>
+    </section>
 
-    <!-- Latest compiled JavaScript -->
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <!-- Placed at the end of the document so the pages load faster -->
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
-    <script src="js/data.js"></script>
+    <!-- Photos Section -->
+    <section id="photos" class="bg-darkest-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <h2 class="section-heading"></h2>
+                </div>
+            </div>
+            <div class="row" id="photo-albums">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <h2 class="section-heading"></h2>
+                </div>
+            </div>
+            <div class="row" id="board-members">
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <form name="sentMessage" id="contactForm" action="https://script.google.com/macros/s/AKfycbzYLsB8NkI0MfGxaII-ovnb7l3c-_x03oJDlhXBSy5NphTEtxQ/exec" method="POST">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name" id="name" name="name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email" id="email" name="email">
+                                </div>
+                                <div class="form-group">
+                                    <select class="form-control" id="interest" name="interest">
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your Message" id="message" name="message"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 text-center">
+                                <button type="submit" class="btn btn-xl">Send Message</button>
+                                <div id="success"></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container bg-darkest-gray">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Created by <a href="http://www.kaitlinseligson.com">Kaitlin Seligson</a></span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://www.facebook.com/FooshImprovComedy/"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://twitter.com/FooshImprov"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/fooshimprov/"><i class="fa fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+
+    <!-- Contact Form JavaScript -->
+    <!--<script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>-->
+
+    <!-- Theme JavaScript -->
     <script src="js/foosh.js"></script>
-    <script src="js/index.js"></script>
+    <script src="js/data.js"></script>
 
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-75801749-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </body>
 
 </html>
