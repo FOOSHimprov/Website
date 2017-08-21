@@ -9,10 +9,10 @@ var data = {
 		},
 		{
 			"week": "2",
-			"day": "October 7, 2016",
+			"day": "October 13, 2017",
 			"time": "8pm",
 			"location": "Ledden Auditorium",
-			"theme": "Gotta FOOSH 'em all!"
+			"theme": ""
 		},
 		{
 			"week": "5",
