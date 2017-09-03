@@ -151,13 +151,6 @@ var data = {
 			"image": "uliseshuete.jpg"
 		},
 		{
-			"name": "Kendra Quinlan",
-			"year": "4th",
-			"fooshYear": "4th",
-			"college": "Muir",
-			"image": "kendraquinlan.jpg"
-		},
-		{
 			"name": "Nick Checchia",
 			"year": "4th",
 			"fooshYear": "4th",
@@ -261,6 +254,20 @@ var data = {
 			"fooshYear": "2nd",
 			"college": "Muir",
 			"image": "annamariepaganelli.jpg"
+		},
+		{
+			"name": "Desireé Leonard",
+			"year": "2nd",
+			"fooshYear": "2nd",
+			"college": "Muir",
+			"image": "desireeleonard.jpg"
+		},
+		{
+			"name": "Amellia Wang",
+			"year": "2nd",
+			"fooshYear": "2nd",
+			"college": "Muir",
+			"image": "Amellia Wang.jpg"
 		}
 	],
 	

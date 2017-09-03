@@ -329,7 +329,7 @@ function showSchedule() {
     }
 
     //Create show calendar for Winter Quarter
-    for(var i = 0; i < data.fallShows.length; ++i) {
+    for(var i = 0; i < data.winterShows.length; ++i) {
         if(i === 0) {
             winterString += "<div class='row'><div class='col-xs-3'><h5>Week</h5></div>";
             winterString += "<div class='col-xs-3'><h5>Date</h5></div>";
@@ -357,7 +357,7 @@ function showSchedule() {
     }
 
     //Create show calendar for Spring Quarter
-    for(var i = 0; i < data.fallShows.length; ++i) {
+    for(var i = 0; i < data.springShows.length; ++i) {
         if(i === 0) {
             springString += "<div class='row'><div class='col-xs-3'><h5>Week</h5></div>";
             springString += "<div class='col-xs-3'><h5>Date</h5></div>";
